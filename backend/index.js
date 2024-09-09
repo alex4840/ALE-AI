@@ -11,8 +11,8 @@ import { ClerkExpressRequireAuth ,ClerkExpressWithAuth} from "@clerk/clerk-sdk-n
 const port = process.env.PORT || 3000;
 const app = express();
 
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use(
   cors({
